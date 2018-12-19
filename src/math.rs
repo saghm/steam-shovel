@@ -13,10 +13,6 @@ impl Fraction {
         Self { num, denom }
     }
 
-    fn one() -> Self {
-        Self::new(1, 1)
-    }
-
     pub fn eval(&self) -> f64 {
         self.num as f64 / self.denom as f64
     }
@@ -59,8 +55,4 @@ pub fn chance_of_splits(hand_size: u128, hand_counts: &[u128], deck_count: u128)
         .into_iter()
         .map(|c| chance_of_split(hand_size, *c, deck_count))
         .collect()
-}
-
-fn divide((n, d): (u128, u128)) -> f64 {
-    n as f64 / d as f64
 }

@@ -1,4 +1,3 @@
-#[allow(dead_code)]
 mod math;
 
 use std::ops::Add;
