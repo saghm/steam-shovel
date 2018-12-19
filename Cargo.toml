@@ -7,3 +7,4 @@ license = "Apache-2.0"
 description = "MTG mulligan helper"
 
 [dependencies]
+structopt = "0.2.14"
