@@ -1,3 +1,4 @@
+[![crates.io](https://img.shields.io/crates/v/steam-shovel.svg)](https://crates.io/crates/steam-shovel)
 # steam-shovel - Magic: The Gathering mulligan helper
 
 `steam-shovel` calculates the odds of getting a certain number of lands in your hand given the
