@@ -1,11 +1,12 @@
 [package]
 name = "steam-shovel"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Saghm Rossi <saghmrossi@gmail.com>"]
 edition = "2018"
 license = "Apache-2.0"
 description = "MTG mulligan helper"
 repository = "https://github.com/saghm/steam-shovel"
+readme = "README.md"
 
 [dependencies]
 structopt = "0.2.14"
