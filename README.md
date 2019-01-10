@@ -3,6 +3,10 @@
 `steam-shovel` calculates the odds of getting a certain number of lands in your hand given the
 total number of lands in your deck (assuming a 60-card deck) and the size of your hand.
 
+# Installation
+
+Assuming you have Rust installed, simply run `cargo install steam-shovel`.
+
 # Sample output
 
 `$ steam-shovel --hand-size 7 --num-lands 24 -counts 3,4`
